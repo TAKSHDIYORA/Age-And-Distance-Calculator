@@ -1,0 +1,113 @@
+header{
+    background-color: #7dc6e0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+footer {
+    background-color: #7dc6e0;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    /* left: 0; */
+    margin-top: 100%;
+    width: 100%;
+}
+.box{
+    margin-top: 200px;
+    /* margin-left: 25%; */
+    height: 600px;
+    width: 1000px;
+    /* border: 1px solid black ; */
+    display: flex;
+    border: 1px solid rgb(15, 172, 228);
+}
+.box:hover{
+    box-shadow: 0px 25px 25px rgba(117, 185, 194, 0.3);
+}
+    .box1:hover{
+        box-shadow: 0px 25px 25px rgba(117, 185, 194, 0.3);    }
+        .box2:hover{
+            box-shadow: 0px 25px 25px rgba(117, 185, 194, 0.3);        }
+.box1>p{
+     font-size: 22px;
+}
+
+.box1{
+    text-align: center;
+   font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+   height: 500px;
+   width: 400px;
+   border: 1px solid rgb(15, 172, 228);
+}
+.box1>form>#submit{
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(rgb(79, 199, 226),rgb(50, 153, 209)) ;
+    text-decoration: none;
+    border-radius: 5px;
+    border: transparent;
+}
+.box1>form>#submit:hover{
+    background-image: linear-gradient(rgb(107, 201, 222),rgb(88, 166, 208)) ;
+}
+#date{
+    border: 1px solid rgb(39, 99, 112);
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.box2{
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid rgb(15, 172, 228);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+   height: 500px;
+   width: 400px;
+   /* border: 1px solid black; */
+}
+.box2>form>#submit{
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(rgb(79, 199, 226),rgb(50, 153, 209)) ;
+    text-decoration: none;
+    border-radius: 5px;
+    border: transparent;
+
+}
+.box2>form>#submit:hover{
+    background-image: linear-gradient(rgb(107, 201, 222),rgb(88, 166, 208)) ;
+}
+#speed{
+    border: 1px solid rgb(39, 99, 112);
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#speed.click{
+    border: 1px solid rgb(28, 116, 136);
+}
+#time{
+    border: 1px solid rgb(39, 99, 112);
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.mid{
+    position:absolute;
+top:50%;
+left:30%;
+margin-top:-50px; /* this is half the height of your div*/
+margin-left:-100px; /*this is half of width of your div*/
+}
+
